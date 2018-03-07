@@ -1,0 +1,203 @@
+/* Mobile Styles */
+@media only screen and (max-width: 480px){
+	.header--home2{
+		width: 100%;
+		height: 70px;
+		background-color: #f30a5c;
+		margin-bottom: 1em;
+	}
+	.header--logo{
+		float: left;
+		width: 89px;
+		height: 70px;
+		margin-left: 1em;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.header--nav{
+		display: none;
+	}
+
+	.header--listaCel{
+		display: none;
+		color: black;
+		background-color: #7e0d37;
+		height: 70px;
+		width: 90px;
+		list-style-type: none;
+		text-align: left;
+		position: absolute;
+		margin: 0;
+		padding: 10px;
+	}
+	.header--menuCel:hover .header--listaCel{
+		color: black;
+		display: block;
+	}
+	.fotogaleria2--contenedor{
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+	    margin: 0;
+	    margin-right: 0;
+	    width: 100%;
+	}
+	.fotogaleria2--foto11{
+		display: flex;
+	    flex-direction: column;
+	    width: 321%;
+	    margin-left: 2em;
+	}
+	.fotogaleria2--foto1{
+	    width: 81%;
+	    height: 68%;
+	    padding-top: 1em;
+	}
+	.fotogaleria2--foto4{
+		width: 81%;
+	    margin-top: 1em;
+	}
+	.fotogaleria2--foto22{
+		display: flex;
+	    flex-direction: column;
+	    width: 288%;
+	    margin-left: 2em;
+	}
+	.fotogaleria2--foto2{
+		width: 126%;
+	    height: 23%;
+	    margin-bottom: 1em;
+	    margin-top: 1em;
+	    margin-left: -35px;
+	    padding-right: 2em;
+	}
+	.fotogaleria2--foto3{
+		width: 109%;
+    	margin-left: -36px;
+	}
+	.fotogaleria2--foto55{
+		margin: 0 auto;
+	    width: 286%;
+	}
+	.fotogaleria2--foto5{
+	    width: 17%;
+	    margin-right: 3.3em;
+	    margin-top: 1em;
+	    margin-left: -36px;
+	}
+}
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+}
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+}
+/* Desktop Styles */
+@media only screen and (min-width: 1025px){
+	.header--home{
+		width: 100%;
+		height: 70px;
+		background-color: #E91E63;
+	}
+	.header--logo{
+		width: 120px;
+		height: 95px;
+		margin-top: 1.5em;
+		margin-left: 1em;
+	}
+	.header--nav{
+		float: right;
+		text-decoration: none;
+		color: pink;
+		margin-right: 2em;
+		margin-top: 2.5em;
+		font-family: 'Roboto', sans-serif;
+		margin-bottom: 0;
+
+	}
+	.header--menuCel{
+		display: none;
+	}
+	.footerHome--listaCel{
+		display: none;
+	}
+	.header--subdesplegablePc{
+		display: none;
+		color: black;
+		background-color: #e91e63;
+		border-radius: 5%;
+		height: 70px;
+		width: 90px;
+		list-style-type: none;
+		text-align: left;
+		position: absolute;
+		margin: 0;
+		padding: 10px;
+	}
+	.header--desplegablePc:hover .header--subdesplegablePc{
+		color: black;
+		display: block;
+
+	}
+	.header--listaCel{
+		display: none;
+	}
+	.fotogaleria2--contenedor{
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+	}
+	.fotogaleria2--foto11{
+		display: flex;
+		flex-direction: column;
+		width: 134%;
+		margin-left: 2em;
+	}
+
+	.fotogaleria2--foto11.hover{
+		transform: scale (6,1);
+	}
+	.fotogaleria2--foto1{
+		width: 90%;
+	    padding: 1em;
+	    margin-left: 1em;
+	    height: 68%;
+	    padding-top: 0;
+	    margin-bottom: 2em;
+	}
+	.escalar{
+	    transition: transform .3s;
+		    &:hover{
+		    	transform: scale(1.2);
+		    }
+	}
+	.fotogaleria2--foto4{
+		width: 84%;
+    	margin-left: 2em;
+	}
+	.fotogaleria2--foto22{
+		display: flex;
+		flex-direction: column;
+		width: 180%;
+	}
+	.fotogaleria2--foto2{
+		width: 95%;
+	    height: 32%;
+	    margin-bottom: 3em;
+	    padding-right: 2em;
+	}
+	.fotogaleria2--foto3{
+		width: 90%;
+	    margin-bottom: 2em;
+	}
+	.fotogaleria2--foto55{
+		width: 97%;
+    	margin-right: 3em;
+	}
+	.fotogaleria2--foto5{
+		width: 43%;
+	    margin-right: 2.3em;
+	    margin-top: 0.3em;
+	}
+
+}

@@ -1,0 +1,56 @@
+	$fondoNegro: black;
+	$fondoRosa: #f30a5c;
+
+	.bodyHome{
+		width: 100%;
+		background-color: $fondoNegro; 
+	}
+	.header--logo{
+		width: 120px;
+		height: 95px;
+		margin: 0!important;
+		margin-left: 1em;
+	}
+	.bodyDisco{
+		width: 100%;
+		background-color: $fondoRosa;
+
+	}
+	.header--menuCel{
+		float: right;
+		width: 50px;
+		height: 55px;
+		margin-right: 1em;
+		margin-top: 6px;
+	}
+	.header--menuPc{
+		display: inline-block;
+		position: right;
+		padding-right: 2em;
+	}
+	.header--colorlink{
+		text-decoration: none;
+		color: white;
+	}
+	.header--desplegablePc{
+		display: inline-block;
+		float: left;
+		position: relative;
+	}
+	.sectionDisco-centrado{
+		clear: both;
+		display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.sectionDisco--titulo{
+		padding-top: 2em;
+		padding-bottom: 1em;
+		color: white;
+		font-size: 14px;
+	}
+	html{
+		width: 100%;
+	}
+	

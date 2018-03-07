@@ -1,0 +1,350 @@
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+	.disco--img{
+		width: 100%;
+	}
+	.bodyContacto{
+		background-color: #a7a4a7;
+		background-image: url(imagenes/fondo.png);
+		overflow-x: hidden;
+	}
+	.mainContacto1{
+		background: #f30a5c;
+	}
+	.mainContacto{
+		background: #f30a5c;
+		margin: 0 auto;
+		border-radius: 5%;
+		color: #ffffff;
+		padding-top: 1em;
+		margin-bottom: 4em;
+	}
+	.contacto--titulo{
+		text-align: center;
+		font-size: 40px;
+		margin-top: 2em;
+	}
+	.contacto--parrafo{
+		text-align: left;
+		width: 100%;
+		margin: 0 auto;
+		padding-left: 2em;
+   		padding-right: 2em;
+	}
+	.contacto--formulario{
+		width: 95%;
+		margin: 0 auto;
+		background-color: #ffffff;
+		border-radius: 5%;
+		color: black;
+		margin-top: 2em;
+	}
+	.contacto--h2{
+		padding-top: 30px;
+	}
+	.contacto--centrado{
+		text-align: center;
+	}
+	.contacto--A{
+		display: inline;
+	}
+	.contacto--celda{
+		width: 300px;
+		border-radius: 5%;
+	}
+	.contacto--textarea{
+		height: 150px;
+		margin-left: 20px;
+	}
+	.animacion{
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		animation-name: animacionfinal;
+		animation-duration: 4s;
+		animation-iteration-count: 2;
+		position: relative;
+	}
+	.contacto--video{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		background-image: url(imagenes/fondo.png);
+		display:inherit;
+	}
+	.body--hamburguesa{
+	  	position: relative;
+	}
+	.headerDisco--cel{
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: baseline;
+	  	background: black;
+	  	padding: 1em 3em;
+		width: 100%;
+		height: 60px;
+	}
+	.oculto {
+	  	display: none;
+	  	position: fixed;
+	  	background-color: #e91e63;
+	  	color: #fff;
+	  	top: 0;
+	  	width: 100%;
+	  	height: 100%;
+		font-size: 25px;
+	    text-align: center;
+	    list-style-type: none;
+	    list-style: none;
+	    margin: 0 auto;
+	    justify-content: center;
+	    padding-top: 8em;
+	}
+	.contacto--submenu{
+		background-color: transparent;
+	    color: white;
+	    margin-bottom: 4em;
+	    font-size: 34px;
+	    border-bottom: white;
+	    list-style-type: none
+	}
+}
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.bodyContacto{
+		background-image: url(imagenes/fondo.png);
+		overflow-x: hidden;
+	}
+	.header--contacto{
+		background: black;
+		width: 100%;
+		height: 90px;
+
+	}
+	.mainContacto{
+		width: 960px;
+		height: 920px;
+		background: #f30a5c;
+		margin: 0 auto;
+		border-radius: 5%;
+		color: #ffffff;
+		margin-top: 2em;
+		padding-top: 1em;
+		margin-bottom: 4em;
+	}
+	.contacto--titulo{
+	text-align: center;
+	font-size: 40px;
+	}
+	.contacto--parrafo{
+		text-align: left;
+		width: 700px;
+		margin: 0 auto;
+	}
+	.contacto--formulario{
+		width: 600px;
+		height: 500px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		border-radius: 5%;
+		color: black;
+		margin-top: 2em;
+	}
+	.contacto--h2{
+		padding-top: 30px;
+	}
+	.contacto--centrado{
+		text-align: center;
+	}
+	.contacto--A{
+		display: inline;
+	}
+	.contacto--celda{
+		width: 300px;
+		border-radius: 5%;
+	}
+	.contacto--textarea{
+		width: 500px;
+		height: 150px;
+		margin-left: 20px;
+	}
+	.animacion{
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		animation-name: animacionfinal;
+		animation-duration: 4s;
+		animation-iteration-count: 2;
+		position: relative;
+	}
+	.contacto--video{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		background-image: url(imagenes/fondo.png);
+	}
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+	.bodyContacto{
+		background-image: url(imagenes/fondo.png);
+		overflow-x: hidden;
+	}
+	.header--contacto{
+		background: black;
+		width: 100%;
+		height: 90px;
+
+	}
+	.mainContacto{
+		width: 960px;
+		height: 920px;
+		background: #f30a5c;
+		margin: 0 auto;
+		border-radius: 5%;
+		color: #ffffff;
+		margin-top: 2em;
+		padding-top: 1em;
+		margin-bottom: 4em;
+	}
+	.contacto--titulo{
+	text-align: center;
+	font-size: 40px;
+	}
+	.contacto--parrafo{
+		text-align: left;
+		width: 700px;
+		margin: 0 auto;
+	}
+	.contacto--formulario{
+		width: 600px;
+		height: 500px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		border-radius: 5%;
+		color: black;
+		margin-top: 2em;
+	}
+	.contacto--h2{
+		padding-top: 30px;
+	}
+	.contacto--centrado{
+		text-align: center;
+	}
+	.contacto--A{
+		display: inline;
+	}
+	.contacto--celda{
+		width: 300px;
+		border-radius: 5%;
+	}
+	.contacto--textarea{
+		width: 500px;
+		height: 150px;
+		margin-left: 20px;
+	}
+	.animacion{
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		animation-name: animacionfinal;
+		animation-duration: 4s;
+		animation-iteration-count: 2;
+		position: relative;
+	}
+	.contacto--video{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		background-image: url(imagenes/fondo.png);
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1025px){
+	.bodyContacto{
+		background-image: url(../imagenes/fondo.png);
+		overflow-x: hidden;
+	}
+	.header--contacto{
+		background: black;
+		width: 100%;
+		height: 90px;
+
+	}
+	.mainContacto{
+		width: 960px;
+		height: 920px;
+		background: #f30a5c;
+		margin: 0 auto;
+		border-radius: 5%;
+		color: #ffffff;
+		margin-top: 2em;
+		padding-top: 1em;
+		margin-bottom: 4em;
+	}
+	.contacto--titulo{
+	text-align: center;
+	font-size: 40px;
+	}
+	.contacto--parrafo{
+		text-align: left;
+		width: 700px;
+		margin: 0 auto;
+	}
+	.contacto--formulario{
+		width: 600px;
+		height: 500px;
+		margin: 0 auto;
+		background-color: #ffffff;
+		border-radius: 5%;
+		color: black;
+		margin-top: 2em;
+	}
+	.contacto--h2{
+		padding-top: 30px;
+	}
+	.contacto--centrado{
+		text-align: center;
+	}
+	.contacto--A{
+		display: inline;
+	}
+	.contacto--celda{
+		width: 300px;
+		border-radius: 5%;
+	}
+	.contacto--textarea{
+		width: 500px;
+		height: 150px;
+		margin-left: 20px;
+	}
+	.animacion{
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		animation-name: animacionfinal;
+		animation-duration: 4s;
+		animation-iteration-count: 2;
+		position: relative;
+	}
+	.contacto--video{
+	    display: flex;
+	    justify-content: center;
+	    width: 80%;
+	    align-items: center;
+	    margin: 0 auto;
+	    margin-bottom: 2em;
+	}
+	.contacto--youtube{
+		width: 90%;
+		height: 30%;
+		position: relative;
+		border-radius: 6px;
+	}
+	.headerDisco--celOculto{
+		display: none;
+	}
+}

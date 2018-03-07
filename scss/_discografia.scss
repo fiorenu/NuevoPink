@@ -1,0 +1,165 @@
+/* Mobile Styles */
+@media only screen and (max-width: 480px) {
+	.disco--img{
+		width: 100%;
+	}
+	.sectionDisco--imagen{
+		height: 110px;
+	}
+	.disco--titulos{
+		font-size: 13px;
+		color: black;
+		margin-top: 0;
+
+	}
+	.disco--parrafo{
+		display: none;
+	}
+	.sectionDiscoDos--fondo{
+		background-image: url(../imagenes/nuevoFondo.jpg);
+		margin-top: 3em;
+	}
+	.sectionDiscoDos--imagen{
+		width: 45%;
+		margin-left: 7em;
+	}
+	.body--hamburguesa{
+	  	position: relative;
+	}
+	.hederDisco--cel{
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: baseline;
+	  	background: black;
+	  	padding: 1em 3em;
+		background: black;
+	    height: 5em;
+	    padding: .5em
+	}
+	.oculto {
+	  	display: none;
+	  	position: fixed;
+	  	background-color: #e91e63;
+	  	color: #fff;
+	  	top: 0;
+	  	width: 100%;
+	  	height: 100%;
+		font-size: 25px;
+	    display: flex;
+	    text-align: center;
+	    list-style-type: none;
+	    list-style: none;
+	    margin: 0 auto;
+	    justify-content: center;
+	    padding-top: 8em;
+		z-index: 1;
+	}
+	.contacto--submenu{
+		background-color: transparent;
+	    color: white;
+	    margin-bottom: 4em;
+	    font-size: 34px;
+	    border-bottom: white;
+	    list-style-type: none
+	}
+
+}
+/* Tablet Styles */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+	.sectionDisco--imagen{
+		width: 300px;
+		height: 230px;
+	}
+	.disco--titulos{
+		font-size: 20px;
+		color: black;
+		margin-left: 0;
+	}
+	.disco--parrafo{
+		font-size: 11px;
+		color: black;
+		margin-left: 0;
+	}
+	.sectionDiscoDos--fondo{
+		background-color: white;
+		margin-top: 3em;
+	}
+	.sectionDiscoDos--imagen{
+		width: 45%;
+		margin-left: 20em;
+	}
+	.sectionDisco--tabla{
+		width: 50%;
+    	margin-bottom: 4em;
+	}
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+	.sectionDisco--imagen{
+		width: 300px;
+		height: 230px;
+	}
+	.disco--titulos{
+		font-size: 20px;
+		color: black;
+		margin-left: 0;
+	}
+	.disco--parrafo{
+		font-size: 11px;
+		color: black;
+		margin-left: 0;
+	}
+	.sectionDiscoDos--fondo{
+		background-color: white;
+		margin-top: 3em;
+	}
+	.sectionDiscoDos--imagen{
+		width: 45%;
+		margin-left: 20em;
+	}
+	.sectionDisco--tabla{
+		width: 50%;
+    	margin-bottom: 4em;
+	}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1025px){
+	.sectionDisco--imagen{
+		width: 300px;
+		height: 230px;
+	}
+	.disco--titulos{
+		font-size: 20px;
+		color: black;
+		margin-left: 0;
+	}
+	.disco--parrafo{
+		font-size: 11px;
+		color: black;
+		margin-left: 0;
+	}
+	.sectionDiscoDos--fondo{
+		background-image: url(../imagenes/nuevoFondo.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+	}
+	.sectionDiscoDos--imagen{
+		width: 45%;
+		margin-left: 20em;
+	}
+	.sectionDisco--tabla{
+		width: 50%;
+    	margin-bottom: 4em;
+	}
+	.headerDisco--celOculto{
+		display: none;
+	}
+	.discografia--ul{
+		display: none;
+	}
+}
