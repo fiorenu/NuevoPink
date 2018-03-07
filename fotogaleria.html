@@ -11,20 +11,38 @@
 <body class="bodyHome">
 	<main>
 		<header class="header--home2">
-			<img class="header--logo" src="imagenes/logo2.png">
-			<img class="header--menuCel" src="imagenes/menuh2.png">
-			<ul class="header--listaCel">
-				<li>Discografia</li>
-				<li>Contacto</li>
-				<li>historia</li>
-			</ul>
+			<h1 class="h1--header">
+				<img class="header--logo" src="imagenes/logo2.png">
+			</h1>
+			<div class="headerDisco--celOculto">
+				<a href="#" onclick="mostrarDiv()">
+					<img class="header--menuCel" src="imagenes/menuh2.png">
+				</a>
+				<div class="oculto" id="idoculto">
+					<div>
+						<a href="#" onclick="ocultarDiv()">x</a>
+						<ul style=" margin: 0; padding: 0;">
+							<li style="text-decoration: none; list-style: none;">
+								<a class="contacto--submenu" href="contacto.html">Contacto</a>
+							</li>
+							<li>
+								<a class="contacto--submenu" href="discografia.html">Discografia</a>
+							</li>
+							<li>
+								<a class="contacto--submenu" href="Fotogaleria.html">Fotogaleria</a>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
 			<nav class="header--nav">
 				<ul>
 					<li class="header--menuPc header--desplegablePc">
 						<a class="header--colorlink" href="index3.html">Home</a>
 					</li>
 					<li class="header--menuPc">
-						<a class="header--colorlink" href="discografia.html">Discografia</a>
+						<a class="header--colorlink" href="discografia.html">Dicografia</a>
 					</li>
 					<li class="header--menuPc">
 						<a class="header--colorlink" href="contacto.html">Contacto</a>
@@ -35,17 +53,17 @@
 		<aside>
 			<div class="row fotogaleria--divImagenes">
 				<div class="fotogaleria--contenedor col-md-4 col-xs-4 col-sm-4 col-lg-4">
-					<a href="">
+					<a href="fotogaleriaDos.html">
 						<img class="fotogaleria--fotoinicio" src="imagenes/portadaFotogaleria1.jpg">
 					</a>
 				</div>
 				<div class="fotogaleria--contenedor col-md-4 col-xs-4 col-sm-4 col-lg-4">
-					<a href="">
+					<a href="fotogaleriaDos.html">
 						<img class="fotogaleria--fotoinicio" src="imagenes/portadaFotogaleria2.jpg">
 					</a>
 				</div>
 				<div class="fotogaleria--contenedor col-md-4 col-xs-4 col-sm-4 col-lg-4">
-					<a href="">
+					<a href="fotogaleriaDos.html">
 						<img class="fotogaleria--fotoinicio" src="imagenes/portadaFotogaleria3.jpg">
 					</a>
 				</div>
