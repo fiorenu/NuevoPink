@@ -398,6 +398,10 @@ html {
     margin-top: -2em; }
   .h2__header {
     margin: 28px; }
+  .home__carrusel {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 3em; }
   .header__logo {
     float: left;
     width: 89px;
@@ -470,6 +474,10 @@ html {
   .h1__header {
     margin: 0;
     margin-left: 1em; }
+  .home__carrusel {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 3em; }
   .header__logo {
     width: 120px;
     height: 95px;
@@ -549,9 +557,13 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  .h1__header {
-    margin: 0;
-    margin-left: 1em; }
+  .h2__header {
+    margin-top: 1.5em;
+    margin-left: 0.5em; }
+  .home__carrusel {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 3em; }
   .header__logo {
     width: 120px;
     height: 95px;
@@ -630,9 +642,9 @@ html {
     width: 100%;
     height: 50px;
     background-color: black; }
-  .h1__header {
-    margin: 0;
-    margin-left: 1em; }
+  .h2__header {
+    margin-top: 1.5em;
+    margin-left: 0.5em; }
   .header__logo {
     width: 120px;
     height: 95px;
@@ -661,7 +673,8 @@ html {
     text-align: left;
     position: absolute;
     margin: 0;
-    padding: 10px; }
+    padding: 10px;
+    z-index: 1; }
   .header__desplegablePc:hover .header__subdesplegablePc {
     color: black;
     display: block; }
@@ -703,7 +716,36 @@ html {
   .sectionHome__imagen {
     width: 100%; }
   .oculto {
-    display: none; } }
+    display: none; }
+  .home__carrusel {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 3em; }
+  .home__caja {
+    background: #E91E63;
+    border-color: transparent; }
+  .home__texto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -1em; }
+  .home__precio {
+    background: #f6f0f773;
+    width: 41%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 0.5em; }
+  .home__botonComprar {
+    width: 55%; }
+  .home__titulo {
+    display: flex;
+    margin: 3em;
+    color: white;
+    padding-top: 3em;
+    font-size: 19px;
+    border-bottom: solid 1px; } }
 
 /* Mobile Styles */
 @media only screen and (max-width: 480px) {
@@ -774,10 +816,9 @@ html {
   .header__home4 {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    padding: 1em 3em;
-    height: 5em;
-    padding: .5em; }
+    align-items: baseline; }
+  .h4__home {
+    margin-left: 1em; }
   .sectionDisco__imagen {
     width: 300px;
     height: 230px; }
@@ -804,9 +845,9 @@ html {
   .header__home4 {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    height: 5em;
-    padding: .5em; }
+    align-items: baseline; }
+  .h4__home {
+    margin-left: 1em; }
   .sectionDisco__imagen {
     width: 300px;
     height: 230px; }
@@ -834,9 +875,12 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+  .h4__home {
+    margin-left: 1em; }
   .sectionDisco__imagen {
     width: 300px;
-    height: 230px; }
+    height: 230px;
+    margin-left: -3em; }
   .disco__titulos {
     font-size: 20px;
     color: black;

@@ -11,6 +11,12 @@ $backgroundcolor: black;
 	.h2__header{
 		margin: 28px;
 	}
+	.home__carrusel{
+		width: 88%;
+		margin: 0 auto;
+		margin-top: 3em;
+
+	}
 	.header__logo{
 		float: left;
 		width: 89px;
@@ -86,6 +92,40 @@ $backgroundcolor: black;
 		margin-right: 1em;
 
 	}
+
+	.home__caja{
+		background: #E91E63;
+    	border-color: transparent;
+	}
+
+	.home__texto{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    text-align: center;
+	    margin-top: -1em;
+	}
+	.home__precio{
+		background: #f6f0f773;
+	    width: 41%;
+	    text-align: center;
+	    border-radius: 8px;
+	    font-size: 20px;
+	    padding: 0.5em;
+	    margin-left: 3.5em;
+	}
+	.home__botonComprar{
+		width: 55%;
+	}
+	.home__titulo{
+		display: flex;
+	    margin: 3em;
+	    color: white;
+	    padding-top: 3em;
+	    font-size: 19px;
+	    border-bottom: solid 1px
+	}
+
 }
 /* Tablet Styles */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -102,6 +142,12 @@ $backgroundcolor: black;
 	.h1__header{
 		margin: 0;
 		margin-left: 1em;
+	}
+	.home__carrusel{
+		width: 88%;
+		margin: 0 auto;
+		margin-top: 3em;
+
 	}
 	.header__logo{
 		width: 120px;
@@ -206,9 +252,15 @@ $backgroundcolor: black;
 	    justify-content: space-between;
 	    align-items: center;
 	}
-	.h1__header{
-		margin: 0;
-		margin-left: 1em;
+	.h2__header{
+		margin-top: 1.5em;
+    	margin-left: 0.5em;
+	}
+	.home__carrusel{
+		width: 88%;
+		margin: 0 auto;
+		margin-top: 3em;
+
 	}
 	.header__logo{
 		width: 120px;
@@ -299,6 +351,42 @@ $backgroundcolor: black;
 	.sectionHome__imagen{
 		width: 100%;
 	}
+
+
+	}
+	.home__caja{
+		background: #E91E63;
+    	border-color: transparent;
+	}
+
+	.home__texto{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    text-align: center;
+	    margin-top: -1em;
+	}
+	.home__precio{
+		background: #f6f0f773;
+	    width: 41%;
+	    text-align: center;
+	    border-radius: 8px;
+	    font-size: 20px;
+	    padding: 0.5em;
+	    margin-left: 3.5em;
+	}
+	.home__botonComprar{
+		width: 55%;
+	}
+	.home__titulo{
+		display: flex;
+	    margin: 3em;
+	    color: white;
+	    padding-top: 3em;
+	    font-size: 19px;
+	    border-bottom: solid 1px
+	}
+
 }
 
 /* Desktop Styles */
@@ -311,9 +399,9 @@ $backgroundcolor: black;
 		height: 50px;
 		background-color: black;
 	}
-	.h1__header{
-		margin: 0;
-		margin-left: 1em;
+	.h2__header{
+		margin-top: 1.5em;
+   	 	margin-left: 0.5em;
 	}
 	.header__logo{
 		width: 120px;
@@ -349,6 +437,7 @@ $backgroundcolor: black;
 		position: absolute;
 		margin: 0;
 		padding: 10px;
+		z-index: 1;
 	}
 	.header__desplegablePc:hover .header__subdesplegablePc{
 		color: black;
@@ -403,6 +492,44 @@ $backgroundcolor: black;
 	}
 	.oculto{
 		display: none;
+	}
+	.home__carrusel{
+		width: 88%;
+		margin: 0 auto;
+		margin-top: 3em;
+
+	}
+	.home__caja{
+		background: #E91E63;
+    	border-color: transparent;
+	}
+
+	.home__texto{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    text-align: center;
+	    margin-top: -1em;
+	}
+	.home__precio{
+		background: #f6f0f773;
+	    width: 41%;
+	    text-align: center;
+	    border-radius: 8px;
+	    font-size: 20px;
+	    padding: 0.5em;
+	    margin-left: 3.5em;
+	}
+	.home__botonComprar{
+		width: 55%;
+	}
+	.home__titulo{
+		display: flex;
+	    margin: 3em;
+	    color: white;
+	    padding-top: 3em;
+	    font-size: 19px;
+	    border-bottom: solid 1px
 	}
 
 }

@@ -81,9 +81,9 @@
 	  	display: flex;
 	  	justify-content: space-between;
 	  	align-items: baseline;
-	  	padding: 1em 3em;
-	    height: 5em;
-	    padding: .5em;
+	}
+	.h4__home{
+		margin-left: 1em;
 	}
 	.sectionDisco__imagen{
 		width: 300px;
@@ -120,8 +120,9 @@
 	  	display: flex;
 	  	justify-content: space-between;
 	  	align-items: baseline;
-	    height: 5em;
-	    padding: .5em;
+	}
+	.h4__home{
+		margin-left: 1em;
 	}
 
 	.sectionDisco__imagen{
@@ -159,9 +160,13 @@
 	    justify-content: space-between;
 	    align-items: center;
 	}
+	.h4__home{
+		margin-left: 1em;
+	}
 	.sectionDisco__imagen{
 		width: 300px;
 		height: 230px;
+		margin-left: -3em;
 	}
 	.disco__titulos{
 		font-size: 20px;
