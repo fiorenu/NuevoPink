@@ -8,60 +8,46 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<title></title>
 </head>
-<body class="bodyContacto body--hamburguesa">
+<body class="bodyContacto body__hamburguesa">
 	<main class="mainContacto1">
-		<header class="hederDisco--cel header--contacto">
-			<img class="header--logo" src="imagenes/logo2.png">
-			<div class="headerDisco--celOculto">
+		<header class="header__home5 header__contacto">
+			<h1 class="h3__header">
+			<img class="header__logo" src="imagenes/logo2.png">
+			</h1>
+			<div class="headerDisco__celOculto">
 				<a href="#" onclick="mostrarDiv()">
-					<img class="header--menuCel" src="imagenes/menuh2.png">
+					<img class="header__menuCel2" src="imagenes/menuh2.png">
 				</a>
-				<div class="oculto" id="idoculto">
-					<div>
-						<a href="#" onclick="ocultarDiv()">x</a>
-						<ul style=" margin: 0; padding: 0;">
-							<li style="text-decoration: none; list-style: none;">
-								<a class="contacto--submenu" href="index3.html">Home</a>
-							</li>
-							<li>
-								<a class="contacto--submenu" href="discografia.html">Discografia</a>
-							</li>
-							<li>
-								<a class="contacto--submenu" href="Fotogaleria.html">Fotogaleria</a>
-							</li>
-						</ul>
-						
-					</div>
-				</div>
+
 			</div>
-			<nav class="header--nav">
+			<nav class="header__nav">
 				<ul>
-					<li class="header--menuPc header--desplegablePc">
-						<a class="header--colorlink" href="index3.html">Home</a>
+					<li class="header__menuPc header__desplegablePc">
+						<a class="header__colorlink" href="index3.html">Home</a>
 					</li>
-					<li class="header--menuPc">
-						<a class="header--colorlink" href="discografia.html">Dicografia</a>
+					<li class="header__menuPc">
+						<a class="header__colorlink" href="discografia.html">Dicografia</a>
 					</li>
-					<li class="header--menuPc">
-						<a class="header--colorlink" href="fotogaleria.html">Fotogaleria</a>
+					<li class="header__menuPc">
+						<a class="header__colorlink" href="fotogaleria.html">Fotogaleria</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 			<section class="mainContacto">
 				<div>
-					<h1 class="contacto--titulo">P!NK SHOW</h1>
-					<p class="contacto--parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis nemo, fuga! Enim, reprehenderit aspernatur repudiandae commodi ab eius at placeat minus nisi, accusamus provident rerum dignissimos explicabo facere corporis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis nemo, fuga! Enim, reprehenderit aspernatur repudiandae commodi ab eius at placeat minus nisi, accusamus provident rerum dignissimos explicabo facere corporisLorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis nemo, fuga! Enim, reprehenderit aspernatur repudiandae commodi ab eius at placeat minus nisi, accusamus provident rerum dignissimos explicabo facere corporisLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<h1 class="contacto__titulo">P!NK SHOW</h1>
+					<p class="contacto__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis nemo, fuga! Enim, reprehenderit aspernatur repudiandae commodi ab eius at placeat minus nisi, accusamus provident rerum dignissimos explicabo facere corporis.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis nemo, fuga! Enim, reprehenderit aspernatur repudiandae commodi ab eius at placeat minus nisi, accusamus provident rerum dignissimos explicabo facere corporisLorem ipsum dolor sit amet, consectetur adipisicing elit. Amet veritatis nemo, fuga! Enim, reprehenderit aspernatur repudiandae commodi ab eius at placeat minus nisi, accusamus provident rerum dignissimos explicabo facere corporisLorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				</div>
-				<div class="contacto--formulario contacto--centrado">
-					<h2 class="contacto--centrado contacto--h2">contactanos</h2>
-					<input class="contacto--celda" type="text" name="Nombre y apellido" placeholder="Nombre y apellido" />
+				<div class="contacto__formulario contacto__centrado">
+					<h2 class="contacto__centrado contacto__h2">contactanos</h2>
+					<input class="contacto__celda" type="text" name="Nombre y apellido" placeholder="Nombre y apellido" />
 					<br>
 					<br>
-					<input class="contacto--celda" type="text" name="edad" placeholder="edad"/>
+					<input class="contacto__celda" type="text" name="edad" placeholder="edad"/>
 					<br>
 					<br>
-					<input class="contacto--celda" type="email" name="email" placeholder="email"/>
+					<input class="contacto__celda" type="email" name="email" placeholder="email"/>
 					<br>
 					<br>
 					<select>
@@ -77,33 +63,55 @@
 					<br>
 					<br>
 					<form>
-						<div class="contacto--A">Casamiento</div>
+						<div class="contacto__A">Casamiento</div>
 						<input type="checkbox" name="eventos[]" value="Casamiento">
-						<div class="contacto--A">fiesta de 15</div>
+						<div class="contacto__A">fiesta de 15</div>
 						<input type="checkbox" name="eventos[]" value="fiesta de 15">
-						<div class="contacto--A">cumpleanos</div>
+						<div class="contacto__A">cumpleanos</div>
 						<input type="checkbox" name="eventos[]" value="cumpleanos">
-						<div class="contacto--A">otro evento</div>
+						<div class="contacto__A">otro evento</div>
 						<input type="checkbox" name="eventos[]" value="otro evento">
 					</form>
 					<br>
-					<textarea class="contacto--textarea" name="Option" rows="25" cols="30" placeholder="envianos tu mensaje"></textarea>
+					<textarea class="contacto__textarea" name="Option" rows="25" cols="30" placeholder="envianos tu mensaje"></textarea>
 					<br>
 					<br>
-					<input type="submit" value="Enviar"/>
-					<input type="reset" value="resetear"/>
+					<input class="contacto__input" type="submit" value="Enviar"/>
+					<input class="contacto__input" type="reset" value="resetear"/>
 				</div>
 			</section>
-			<section class="contacto--video">
-				<!-- 16:9 aspect ratio -->
-				<div class="embed-responsive embed-responsive-16by9 contacto--youtube">
+			<section class="contacto__video">
+				<!__ 16:9 aspect ratio __>
+				<div class="embed-responsive embed-responsive-16by9 contacto__youtube">
 					<iframe src="https://www.youtube.com/embed/yTCDVfMz15M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				</div>
 			</section>
+			<div class="oculto" id="idoculto">
+					<div>
+						<a href="#" onclick="ocultarDiv()" class="discografia__cruzCierre">x</a>
+						<ul style=" margin: 0; padding: 0;">
+							<li class="hamburguesa__li">
+								<a class="contacto__submenu" href="index3.html">Home</a>
+							</li>
+							<br>
+							<br>
+							<li class="hamburguesa__li">
+								<a class="contacto__submenu" href="discografia.html">Discografia</a>
+							</li>
+							<br>
+							<br>
+							<li class="hamburguesa__li">
+								<a class="contacto__submenu" href="Fotogaleria.html">Fotogaleria</a>
+							</li>
+						</ul>
+						
+					</div>
+			</div>
 			<footer>
 				
 			</footer>
 	</main>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>

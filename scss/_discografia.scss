@@ -1,32 +1,32 @@
 /* Mobile Styles */
 @media only screen and (max-width: 480px) {
-	.disco--img{
+	.disco__img{
 		width: 100%;
 	}
-	.sectionDisco--imagen{
+	.sectionDisco__imagen{
 		height: 110px;
 	}
-	.disco--titulos{
+	.disco__titulos{
 		font-size: 13px;
 		color: black;
 		margin-top: 0;
 
 	}
-	.disco--parrafo{
+	.disco__parrafo{
 		display: none;
 	}
-	.sectionDiscoDos--fondo{
+	.sectionDiscoDos__fondo{
 		background-image: url(../imagenes/nuevoFondo.jpg);
 		margin-top: 3em;
 	}
-	.sectionDiscoDos--imagen{
+	.sectionDiscoDos__imagen{
 		width: 45%;
 		margin-left: 7em;
 	}
-	.body--hamburguesa{
+	.body__hamburguesa{
 	  	position: relative;
 	}
-	.hederDisco--cel{
+	.header__home4{
 	  	display: flex;
 	  	justify-content: space-between;
 	  	align-items: baseline;
@@ -51,44 +51,63 @@
 	    list-style: none;
 	    margin: 0 auto;
 	    justify-content: center;
-	    padding-top: 8em;
+	    padding-top: 2em;
 		z-index: 1;
 	}
-	.contacto--submenu{
+	.contacto__submenu{
 		background-color: transparent;
 	    color: white;
-	    margin-bottom: 4em;
 	    font-size: 34px;
 	    border-bottom: white;
-	    list-style-type: none
+	    list-style-type: none;
+	    border-color: white;
+	    border-style: solid;
+	    padding: .5em;
+	    border-radius: 5%;
+	    box-shadow: 1px 1px 1px #000;
+	}
+	.discografia__cruzCierre{
+		display: flex;
+	    justify-content: flex-end;
+	    align-items: flex-start;
+	    margin-bottom: 4em;
+	    padding-right: 1em;
 	}
 
 }
 /* Tablet Styles */
 @media only screen and (min-width: 481px) and (max-width: 767px) {
-	.sectionDisco--imagen{
+	.header__home4{
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: baseline;
+	  	padding: 1em 3em;
+	    height: 5em;
+	    padding: .5em;
+	}
+	.sectionDisco__imagen{
 		width: 300px;
 		height: 230px;
 	}
-	.disco--titulos{
+	.disco__titulos{
 		font-size: 20px;
 		color: black;
 		margin-left: 0;
 	}
-	.disco--parrafo{
+	.disco__parrafo{
 		font-size: 11px;
 		color: black;
 		margin-left: 0;
 	}
-	.sectionDiscoDos--fondo{
+	.sectionDiscoDos__fondo{
 		background-color: white;
 		margin-top: 3em;
 	}
-	.sectionDiscoDos--imagen{
+	.sectionDiscoDos__imagen{
 		width: 45%;
 		margin-left: 20em;
 	}
-	.sectionDisco--tabla{
+	.sectionDisco__tabla{
 		width: 50%;
     	margin-bottom: 4em;
 	}
@@ -97,29 +116,37 @@
 
 /* Tablet Styles */
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
-	.sectionDisco--imagen{
+	.header__home4{
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: baseline;
+	    height: 5em;
+	    padding: .5em;
+	}
+
+	.sectionDisco__imagen{
 		width: 300px;
 		height: 230px;
 	}
-	.disco--titulos{
+	.disco__titulos{
 		font-size: 20px;
 		color: black;
 		margin-left: 0;
 	}
-	.disco--parrafo{
+	.disco__parrafo{
 		font-size: 11px;
 		color: black;
 		margin-left: 0;
 	}
-	.sectionDiscoDos--fondo{
+	.sectionDiscoDos__fondo{
 		background-color: white;
 		margin-top: 3em;
 	}
-	.sectionDiscoDos--imagen{
+	.sectionDiscoDos__imagen{
 		width: 45%;
 		margin-left: 20em;
 	}
-	.sectionDisco--tabla{
+	.sectionDisco__tabla{
 		width: 50%;
     	margin-bottom: 4em;
 	}
@@ -127,39 +154,47 @@
 
 /* Desktop Styles */
 @media only screen and (min-width: 1025px){
-	.sectionDisco--imagen{
+	.header__home4{
+		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	.sectionDisco__imagen{
 		width: 300px;
 		height: 230px;
 	}
-	.disco--titulos{
+	.disco__titulos{
 		font-size: 20px;
 		color: black;
 		margin-left: 0;
 	}
-	.disco--parrafo{
+	.disco__parrafo{
 		font-size: 11px;
 		color: black;
 		margin-left: 0;
 	}
-	.sectionDiscoDos--fondo{
+	.sectionDiscoDos__fondo{
 		background-image: url(../imagenes/nuevoFondo.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100%;
 		width: 100%;
 	}
-	.sectionDiscoDos--imagen{
+	.sectionDiscoDos__imagen{
 		width: 45%;
 		margin-left: 20em;
 	}
-	.sectionDisco--tabla{
+	.sectionDisco__tabla{
 		width: 50%;
     	margin-bottom: 4em;
 	}
-	.headerDisco--celOculto{
+	.headerDisco__celOculto{
 		display: none;
 	}
-	.discografia--ul{
+	.discografia__ul{
+		display: none;
+	}
+	.oculto{
 		display: none;
 	}
 }

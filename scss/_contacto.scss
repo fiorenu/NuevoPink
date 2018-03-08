@@ -1,6 +1,6 @@
 /* Mobile Styles */
 @media only screen and (max-width: 480px) {
-	.disco--img{
+	.disco__img{
 		width: 100%;
 	}
 	.bodyContacto{
@@ -19,19 +19,19 @@
 		padding-top: 1em;
 		margin-bottom: 4em;
 	}
-	.contacto--titulo{
+	.contacto__titulo{
 		text-align: center;
 		font-size: 40px;
-		margin-top: 2em;
+		margin-top: 1em;
 	}
-	.contacto--parrafo{
+	.contacto__parrafo{
 		text-align: left;
 		width: 100%;
 		margin: 0 auto;
 		padding-left: 2em;
    		padding-right: 2em;
 	}
-	.contacto--formulario{
+	.contacto__formulario{
 		width: 95%;
 		margin: 0 auto;
 		background-color: #ffffff;
@@ -39,20 +39,20 @@
 		color: black;
 		margin-top: 2em;
 	}
-	.contacto--h2{
+	.contacto__h2{
 		padding-top: 30px;
 	}
-	.contacto--centrado{
+	.contacto__centrado{
 		text-align: center;
 	}
-	.contacto--A{
+	.contacto__A{
 		display: inline;
 	}
-	.contacto--celda{
+	.contacto__celda{
 		width: 300px;
 		border-radius: 5%;
 	}
-	.contacto--textarea{
+	.contacto__textarea{
 		height: 150px;
 		margin-left: 20px;
 	}
@@ -65,24 +65,23 @@
 		animation-iteration-count: 2;
 		position: relative;
 	}
-	.contacto--video{
+	.contacto__video{
 		display: flex;
 		justify-content: center;
 		width: 100%;
 		background-image: url(imagenes/fondo.png);
 		display:inherit;
 	}
-	.body--hamburguesa{
+	.body__hamburguesa{
 	  	position: relative;
 	}
-	.headerDisco--cel{
+	.header__home5{
 	  	display: flex;
 	  	justify-content: space-between;
 	  	align-items: baseline;
 	  	background: black;
-	  	padding: 1em 3em;
 		width: 100%;
-		height: 60px;
+		height: 70px;
 	}
 	.oculto {
 	  	display: none;
@@ -101,13 +100,25 @@
 	    padding-top: 8em;
 	    z-index: 1;
 	}
-	.contacto--submenu{
+	.contacto__submenu{
 		background-color: transparent;
 	    color: white;
 	    margin-bottom: 4em;
 	    font-size: 34px;
 	    border-bottom: white;
 	    list-style-type: none
+	}
+	.contacto__input{
+		margin-bottom: 1em;
+	}
+	.header__menuCel2{
+		width: 50px;
+	    height: 55px;
+	    margin-right: 1em;
+	    margin-top: -4em;
+	}
+	.h3__header{
+		margin-top: 0;
 	}
 }
 /* Tablet Styles */
@@ -116,11 +127,20 @@
 		background-image: url(imagenes/fondo.png);
 		overflow-x: hidden;
 	}
-	.header--contacto{
+	.header__contacto{
 		background: black;
 		width: 100%;
 		height: 90px;
 
+	}
+	.header__home5{
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: baseline;
+	  	background: black;
+	  	padding: 1em 3em;
+		width: 100%;
+		height: 96px;
 	}
 	.mainContacto{
 		width: 960px;
@@ -133,16 +153,17 @@
 		padding-top: 1em;
 		margin-bottom: 4em;
 	}
-	.contacto--titulo{
-	text-align: center;
-	font-size: 40px;
+	.contacto__titulo{
+	    text-align: center;
+	    font-size: 40px;
+	    margin-top: 0.5em;
 	}
-	.contacto--parrafo{
+	.contacto__parrafo{
 		text-align: left;
 		width: 700px;
 		margin: 0 auto;
 	}
-	.contacto--formulario{
+	.contacto__formulario{
 		width: 600px;
 		height: 500px;
 		margin: 0 auto;
@@ -151,20 +172,20 @@
 		color: black;
 		margin-top: 2em;
 	}
-	.contacto--h2{
+	.contacto__h2{
 		padding-top: 30px;
 	}
-	.contacto--centrado{
+	.contacto__centrado{
 		text-align: center;
 	}
-	.contacto--A{
+	.contacto__A{
 		display: inline;
 	}
-	.contacto--celda{
+	.contacto__celda{
 		width: 300px;
 		border-radius: 5%;
 	}
-	.contacto--textarea{
+	.contacto__textarea{
 		width: 500px;
 		height: 150px;
 		margin-left: 20px;
@@ -178,7 +199,7 @@
 		animation-iteration-count: 2;
 		position: relative;
 	}
-	.contacto--video{
+	.contacto__video{
 		display: flex;
 		justify-content: center;
 		width: 100%;
@@ -193,11 +214,23 @@
 		background-image: url(imagenes/fondo.png);
 		overflow-x: hidden;
 	}
-	.header--contacto{
+	.header__contacto{
 		background: black;
 		width: 100%;
 		height: 90px;
 
+	}
+	.header__menuCel2{
+		display: none;
+	}
+	.header__home5{
+	  	display: flex;
+	  	justify-content: space-between;
+	  	align-items: baseline;
+	  	background: black;
+	  	padding: 1em 3em;
+		width: 100%;
+		height: 96px;
 	}
 	.mainContacto{
 		width: 960px;
@@ -210,16 +243,16 @@
 		padding-top: 1em;
 		margin-bottom: 4em;
 	}
-	.contacto--titulo{
+	.contacto__titulo{
 	text-align: center;
 	font-size: 40px;
 	}
-	.contacto--parrafo{
+	.contacto__parrafo{
 		text-align: left;
 		width: 700px;
 		margin: 0 auto;
 	}
-	.contacto--formulario{
+	.contacto__formulario{
 		width: 600px;
 		height: 500px;
 		margin: 0 auto;
@@ -228,20 +261,20 @@
 		color: black;
 		margin-top: 2em;
 	}
-	.contacto--h2{
+	.contacto__h2{
 		padding-top: 30px;
 	}
-	.contacto--centrado{
+	.contacto__centrado{
 		text-align: center;
 	}
-	.contacto--A{
+	.contacto__A{
 		display: inline;
 	}
-	.contacto--celda{
+	.contacto__celda{
 		width: 300px;
 		border-radius: 5%;
 	}
-	.contacto--textarea{
+	.contacto__textarea{
 		width: 500px;
 		height: 150px;
 		margin-left: 20px;
@@ -255,11 +288,19 @@
 		animation-iteration-count: 2;
 		position: relative;
 	}
-	.contacto--video{
-		display: flex;
-		justify-content: center;
-		width: 100%;
-		background-image: url(imagenes/fondo.png);
+	.contacto__video{
+	    display: flex;
+	    justify-content: center;
+	    width: 80%;
+	    align-items: center;
+	    margin: 0 auto;
+	    margin-bottom: 2em;
+	}
+	.contacto__youtube{
+		width: 90%;
+		height: 30%;
+		position: relative;
+		border-radius: 6px;
 	}
 }
 
@@ -269,7 +310,16 @@
 		background-image: url(../imagenes/fondo.png);
 		overflow-x: hidden;
 	}
-	.header--contacto{
+	.header__home5{
+		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	.h1__header{
+		margin: 0;
+		margin-left: 1em;
+	}
+	.header__contacto{
 		background: black;
 		width: 100%;
 		height: 90px;
@@ -286,16 +336,16 @@
 		padding-top: 1em;
 		margin-bottom: 4em;
 	}
-	.contacto--titulo{
+	.contacto__titulo{
 	text-align: center;
 	font-size: 40px;
 	}
-	.contacto--parrafo{
+	.contacto__parrafo{
 		text-align: left;
 		width: 700px;
 		margin: 0 auto;
 	}
-	.contacto--formulario{
+	.contacto__formulario{
 		width: 600px;
 		height: 500px;
 		margin: 0 auto;
@@ -304,20 +354,20 @@
 		color: black;
 		margin-top: 2em;
 	}
-	.contacto--h2{
+	.contacto__h2{
 		padding-top: 30px;
 	}
-	.contacto--centrado{
+	.contacto__centrado{
 		text-align: center;
 	}
-	.contacto--A{
+	.contacto__A{
 		display: inline;
 	}
-	.contacto--celda{
+	.contacto__celda{
 		width: 300px;
 		border-radius: 5%;
 	}
-	.contacto--textarea{
+	.contacto__textarea{
 		width: 500px;
 		height: 150px;
 		margin-left: 20px;
@@ -331,7 +381,7 @@
 		animation-iteration-count: 2;
 		position: relative;
 	}
-	.contacto--video{
+	.contacto__video{
 	    display: flex;
 	    justify-content: center;
 	    width: 80%;
@@ -339,13 +389,13 @@
 	    margin: 0 auto;
 	    margin-bottom: 2em;
 	}
-	.contacto--youtube{
+	.contacto__youtube{
 		width: 90%;
 		height: 30%;
 		position: relative;
 		border-radius: 6px;
 	}
-	.headerDisco--celOculto{
+	.headerDisco__celOculto{
 		display: none;
 	}
 }

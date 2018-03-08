@@ -5,7 +5,7 @@
 		width: 100%;
 		background-color: $fondoNegro; 
 	}
-	.header--logo{
+	.header__logo{
 		width: 120px;
 		height: 95px;
 		margin: 0!important;
@@ -16,23 +16,24 @@
 		background-color: $fondoRosa;
 
 	}
-	.header--menuCel{
+	.header__menuCel{
 		float: right;
 		width: 50px;
 		height: 55px;
 		margin-right: 1em;
 		margin-top: 6px;
+		
 	}
-	.header--menuPc{
+	.header__menuPc{
 		display: inline-block;
 		position: right;
 		padding-right: 2em;
 	}
-	.header--colorlink{
+	.header__colorlink{
 		text-decoration: none;
 		color: white;
 	}
-	.header--desplegablePc{
+	.header__desplegablePc{
 		display: inline-block;
 		float: left;
 		position: relative;
@@ -44,11 +45,52 @@
 	    justify-content: center;
 	    align-items: center;
 	}
-	.sectionDisco--titulo{
+	.sectionDisco__titulo{
 		padding-top: 2em;
 		padding-bottom: 1em;
 		color: white;
 		font-size: 14px;
+	}
+	.hamburguesa__li{
+		text-decoration: none; 
+		list-style: none;
+	}
+	.oculto {
+	  	display: none;
+	  	position: fixed;
+	  	background-color: #e91e63;
+	  	color: #fff;
+	  	top: 0;
+	  	width: 100%;
+	  	height: 100%;
+		font-size: 25px;
+	    display: flex;
+	    text-align: center;
+	    list-style-type: none;
+	    list-style: none;
+	    margin: 0 auto;
+	    justify-content: center;
+	    padding-top: 2em;
+		z-index: 1;
+	}
+	.contacto__submenu{
+		background-color: transparent;
+	    color: white;
+	    font-size: 34px;
+	    border-bottom: white;
+	    list-style-type: none;
+	    border-color: white;
+	    border-style: solid;
+	    padding: .5em;
+	    border-radius: 5%;
+	    box-shadow: 1px 1px 1px #000;
+	}
+	.discografia__cruzCierre{
+		display: flex;
+	    justify-content: flex-end;
+	    align-items: flex-start;
+	    margin-bottom: 4em;
+	    padding-right: 1em;
 	}
 	html{
 		width: 100%;
